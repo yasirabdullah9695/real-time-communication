@@ -1,7 +1,8 @@
 .landingPageContainer {
   width: 100vw;
   height: 100vh;
-  background: url("/public/background.png");
+  background: url("https://s3-alpha.figma.com/hub/file/3874050710/99909f4f-88bc-4b1a-81d6-332730dfffd9-cover.png");
+  /* background: url(); */
   background-repeat: no-repeat;
   background-size: cover;
   color: white;

@@ -21,10 +21,14 @@ app.use(express.urlencoded({ limit: "40kb", extended: true }));
 
 app.use("/api/v1/users", userRoutes);
 
+app.get("/", (req, res) => {
+    res.send("Welcome to the backend server!");
+  });
+  
 const start = async () => {
     app.set("mongo_user")
-    const connectionDb = await mongoose.connect("mongodb+srv://imdigitalashish:imdigitalashish@cluster0.cujabk4.mongodb.net/")
-
+    // const connectionDb = await mongoose.connect("mongodb+srv://yasirsabdullah02:yasir9695@cluster0.yffvvwn.mongodb.net/")
+const connectionDb = await mongoose.connect("mongodb://localhost:27017")
     console.log(`MONGO Connected DB HOst: ${connectionDb.connection.host}`)
     server.listen(app.get("port"), () => {
         console.log("LISTENIN ON PORT 8000")

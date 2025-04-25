@@ -76,7 +76,8 @@ export default function Authentication() {
                     sm={4}
                     md={7}
                     sx={{
-                        backgroundImage: 'url(https://source.unsplash.com/random?wallpapers)',
+                        // backgroundImage: 'url(https://source.unsplash.com/random?wallpapers)',
+                        backgroundImage: 'url(https://s3-alpha.figma.com/hub/file/3874050710/99909f4f-88bc-4b1a-81d6-332730dfffd9-cover.png)',
                         backgroundRepeat: 'no-repeat',
                         backgroundColor: (t) =>
                             t.palette.mode === 'light' ? t.palette.grey[50] : t.palette.grey[900],

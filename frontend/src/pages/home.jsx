@@ -26,7 +26,7 @@ function HomeComponent() {
 
                 <div style={{ display: "flex", alignItems: "center" }}>
 
-                    <h2>Apna Video Call</h2>
+                    <h2>real time communication</h2>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center" }}>
@@ -67,8 +67,11 @@ function HomeComponent() {
                 <div className='rightPanel'>
                     <img srcSet='/logo3.png' alt="" />
                 </div>
+                
             </div>
+            
         </>
+        
     )
 }
 
